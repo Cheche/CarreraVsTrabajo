@@ -1,0 +1,15 @@
+<div>
+{% for tema in temas %}
+    <div id="{{ tema.id }}">{{ tema.nombre }}</div>
+{% endfor %}
+</div>
+{
+    temas{
+        {% for tema in temas %}
+            {
+                id: {{ tema.id }};
+                nombre: {{ tema.nombre }};
+            }
+        {% endfor %}
+        }
+}

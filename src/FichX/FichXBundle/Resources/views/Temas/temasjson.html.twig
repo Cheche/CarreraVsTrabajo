@@ -1,0 +1,10 @@
+{
+    "temas":[
+        {% for tema in temas %}
+            {
+                "id": "{{ tema.id }}",
+                "nombre": "{{ tema.nombre }}"
+            }{% if not loop.last %},{% endif %}
+        {% endfor %}
+]
+}

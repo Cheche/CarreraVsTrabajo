@@ -1,0 +1,7 @@
+parameters:
+#    fich_x.example.class: FichX\FichXBundle\Example
+
+services:
+#    fich_x.example:
+#        class: %fich_x.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

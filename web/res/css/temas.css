@@ -1,0 +1,26 @@
+.buttonTema1 , .buttonTema2, .buttonTema3, .buttonTema4, .buttonTema5 
+{
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 1em;
+    margin-left: 0px;
+    float: left;
+    display: table-cell;
+    padding: 3px;
+    border-radius: 4px;
+    background: #00c08b;
+    color:#127a5d;
+    vertical-align: middle;
+}
+.buttonTema2{ background-color:#ea5080;color:#aa2a52;}
+.buttonTema3{ background-color:#53bfe2;color:#2884a2;}
+.buttonTema4{ background-color:#f8c54d;color:#ab8426;}
+.buttonTema5{ background-color:#df6dc2;color:#9f3c85;}
+#temas aside nav ul {
+    list-style: none;
+    display: table-row;
+}
+#temas aside nav
+{
+    margin-top: 50px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="es_ES">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" 
+		  content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>
+		Fich XXX - Plataforma de Extension de Cátedras
+	</title>
+	<link rel="stylesheet" href="{{ asset('res/css/materiasNav.css') }}" />
+    <link rel="stylesheet" href="{{ asset('res/css/styles.css') }}" />
+    <link rel="stylesheet" href="{{ asset('res/css/temas.css') }}" />
+    <link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
+    
+    <script src="{{ asset('res/js/jquery-2.0.3.min.js') }}" > </script>
+    <script src="{{ asset('res/js/jquery.easing.1.3.js') }}" > </script>
+    <script src="{{ asset('res/js/events.js') }}" > </script>
+</head>
+<body>
+    <header>
+        <input id="searchBar" ></input>
+        <button id="search"></button>
+        <figure id="avatar">
+            <img src="{{ asset('res/images/avatar.jpg') }}" />
+            <figcaption></figcaption>
+        </figure>
+        <figure id="logo">
+            <img src="{{ asset('res/images/Foquiny.png') }}">
+        </figure>
+        <h1 id="titulo_header">Plataforma de extensión de catedras</h1>
+    </header>
+	<nav id="materiasNav">
+			<ul>
+				<li class="green">
+					<a href="#" class="icon-home">Primer Año</a>
+					<ul>
+						<li id="1a"><a href="#">Materia 1</a></li>
+						<li id="1b"><a href="#">Materia 2</a></li>
+						<li id="1c"><a href="#">Materia 3</a></li>
+					</ul>
+				</li>
+				<li class="red">
+					<a href="#" class="icon-cogs">Segundo Año</a>
+					<ul>
+						<li id="2a"><a href="#">Materia 1</a></li>
+						<li id="2b"><a href="#">Materia 2</a></li>
+						<li id="2c"><a href="#">Materia 3</a></li>
+					</ul>
+				</li>
+				<li class="blue">
+					<a href="#" class="icon-twitter">Tercer Año</a>
+					<ul>
+						<li id="3a"><a href="#">Materia 1</a></li>
+						<li id="3b"><a href="#">Materia 2</a></li>
+						<li id="3c"><a href="#">Materia 3</a></li>
+					</ul>
+				</li>
+				<li class="yellow">
+					<a href="#" class="icon-beaker">Cuarto Año</a>
+					<ul>
+						<li id="4a"><a href="#">Materia 1</a></li>
+						<li id="4b"><a href="#">Materia 2</a></li>
+						<li id="4c"><a href="#">Materia 3</a></li>
+					</ul>
+				</li>
+				<li class="purple">
+					<a href="#" class="icon-envelope">Quinto Año</a>
+					<ul>
+						<li id="5a"><a href="#">Materia 1</a></li>
+						<li id="5b"><a href="#">Materia 2</a></li>
+						<li id="5c"><a href="#">Materia 3</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+    <section>
+        <aside id="temas">
+            <nav>
+              <ul id="temaslista">
+              </ul>
+            </nav>
+            <div id="central" >
+            </div>
+        </aside>
+	</section>
+	<footer>
+		<p>Powered by Grupo Cool</p>
+		<p>Hackaton Litoral 2013®</p>
+	</footer>
+</body>
+</html>

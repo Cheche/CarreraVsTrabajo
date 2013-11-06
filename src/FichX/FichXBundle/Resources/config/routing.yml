@@ -1,0 +1,19 @@
+fich_x_homepage:
+    pattern:  /
+    defaults: { _controller: FichXBundle:Default:index }
+
+#temas:
+#    pattern: /temas/{id}
+#    defaults: { _controller: FichXBundle:Temas:index }
+    
+temas_getTemas:
+    pattern: /getTemas/{id}
+    defaults: { _controller: FichXBundle:Temas:getTemas }
+    
+temas_getTemasID:
+    pattern: /getTemasID/{id}
+    defaults: { _controller: FichXBundle:Temas:getTemasID }
+    
+temas_getIframe:
+    pattern: /getIframe/{id}
+    defaults: { _controller: FichXBundle:Temas:getIframe }

@@ -1,0 +1,4 @@
+fich_x:
+    resource: "@FichXBundle/Resources/config/routing.yml"
+    prefix:   /
+

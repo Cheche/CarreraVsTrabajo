@@ -1,0 +1,21 @@
+FichX\FichXBundle\Entity\Usuarios:
+    type: entity
+    table: usuarios
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        nombre:
+            type: string
+            length: 50
+            fixed: false
+            nullable: false
+        rol:
+            type: integer
+            unsigned: false
+            nullable: false
+    lifecycleCallbacks: {  }

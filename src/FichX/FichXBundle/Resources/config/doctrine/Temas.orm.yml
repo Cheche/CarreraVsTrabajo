@@ -1,0 +1,27 @@
+FichX\FichXBundle\Entity\Temas:
+    type: entity
+    table: temas
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        nombre:
+            type: string
+            length: 50
+            fixed: false
+            nullable: false
+    manyToOne:
+        materiaid:
+            targetEntity: Materias
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                materiaid:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

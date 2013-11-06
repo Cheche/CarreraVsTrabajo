@@ -1,0 +1,17 @@
+FichX\FichXBundle\Entity\Materias:
+    type: entity
+    table: materias
+    fields:
+        id:
+            id: true
+            type: integer
+            unsigned: false
+            nullable: false
+            generator:
+                strategy: IDENTITY
+        nombre:
+            type: string
+            length: 30
+            fixed: false
+            nullable: false
+    lifecycleCallbacks: {  }
